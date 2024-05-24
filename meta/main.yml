@@ -3,7 +3,8 @@ dependencies: []
 
 galaxy_info:
   role_name: glusterfs
-  author: geerlingguy
+  author: grycap
+  namespace: grycap
   description: GlusterFS installation for Linux.
   company: "Midwestern Mac, LLC"
   license: "license (BSD, MIT)"
