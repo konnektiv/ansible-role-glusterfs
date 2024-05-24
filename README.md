@@ -1,6 +1,6 @@
 # Ansible Role: GlusterFS
 
-[![CI](https://github.com/geerlingguy/ansible-role-glusterfs/workflows/CI/badge.svg?event=push)](https://github.com/geerlingguy/ansible-role-glusterfs/actions?query=workflow%3ACI)
+[![CI](https://github.com/grycap/ansible-role-glusterfs/workflows/CI/badge.svg?event=push)](https://github.com/grycap/ansible-role-glusterfs/actions?query=workflow%3ACI)
 
 Installs and configures GlusterFS on Linux.
 
@@ -36,7 +36,7 @@ None.
 
     - hosts: server
       roles:
-        - geerlingguy.glusterfs
+        - grycap.glusterfs
 
 For a real-world use example, read through [Simple GlusterFS Setup with Ansible](https://www.jeffgeerling.com/blog/simple-glusterfs-setup-ansible), a blog post by this role's author, which is included in Chapter 8 of [Ansible for DevOps](https://www.ansiblefordevops.com/).
 
