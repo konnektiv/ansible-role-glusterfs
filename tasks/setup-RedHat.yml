@@ -6,7 +6,5 @@
 
 - name: Ensure Gluster packages are installed.
   yum:
-    name:
-      - glusterfs-server
-      - glusterfs-client
+    name: "{{glusterfs_install_packages}}"
     state: present

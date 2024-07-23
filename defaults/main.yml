@@ -9,3 +9,8 @@ glusterfs_ppa_version: "7"
 # For Debian.
 glusterfs_gpg_key_version: "7"
 glusterfs_deb_version: "LATEST"
+
+# packages to install
+glusterfs_install_packages:
+  - glusterfs-server
+  - glusterfs-client

@@ -15,3 +15,4 @@
 
 - name: Ensure GlusterFS is started and enabled at boot.
   service: "name={{ glusterfs_daemon }} state=started enabled=yes"
+  when: "'glusterfs-server' in glusterfs_install_packages"
